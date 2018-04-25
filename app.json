@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/songlist/songlist",
+    "pages/musiclist/musiclist",
+    "pages/playing/playing",
+    "pages/radiostation/radiostation",
+    "pages/stationsong/stationsong",
+    "pages/player/player",
+    "pages/playerSong/playerSong"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#C14448",
+    "navigationBarTitleText": "音乐播放app",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "img/index.png",
+      "selectedIconPath": "img/index2.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "img/list.png",
+      "selectedIconPath": "img/list2.png"
+    }
+    ],
+    "color":"#fff",
+    "backgroundColor":"#C14448",
+    "selectedColor":"#fff"
+  }
+}
