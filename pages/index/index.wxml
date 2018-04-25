@@ -1,0 +1,91 @@
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='swiper'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" class='swiper-image'/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 点击列表 -->
+<view class='navbox'>
+    <navigator class='nav' url='../musiclist/musiclist?type=1' open-type='navigate' hover-class='nav1'>
+        <image src='../../img/yinyue.png'></image>
+        <text>最新歌曲</text>
+    </navigator>
+    <navigator class='nav' url='../songlist/songlist' open-type='navigate' hover-class='nav1'>
+        <image src='../../img/gedan.png'></image>
+        <text>歌单</text>
+    </navigator>
+    <navigator class='nav' url='../radiostation/radiostation' open-type='navigate' hover-class='nav1'>
+        <image src='../../img/paihangbang.png'></image>
+        <text>电台</text>
+    </navigator>
+    <navigator class='nav' url='../player/player' open-type='navigate' hover-class='nav1'>
+        <image src='../../img/huatong.png'></image>
+        <text>歌手</text>
+    </navigator>
+</view>
+<!-- 推荐歌曲 -->
+<view class='list'>
+    <view class='list-t'>
+        <text>推荐歌曲</text>
+        <navigator url='../songlist/songlist' open-type='navigate'>更多</navigator>
+    </view>
+    <view class='list-b'>
+        <navigator url='../musiclist/musiclist?type=11' open-type='navigate'>
+            <image src='http://hiphotos.qianqian.com/ting/pic/item/f2deb48f8c5494ee2b2a8c7f2ef5e0fe99257e48.jpg'></image>
+            <text>摇滚榜</text>
+        </navigator>
+        <navigator url='../musiclist/musiclist?type=2' open-type='navigate'>
+            <image src='http://hiphotos.qianqian.com/ting/pic/item/09fa513d269759ee4764e3adb1fb43166d22dfa4.jpg'></image>
+            <text>热歌榜</text>
+        </navigator>
+        <navigator url='../musiclist/musiclist?type=8' open-type='navigate'>
+            <image src='http://hiphotos.qianqian.com/ting/pic/item/a50f4bfbfbedab643870cea6f436afc379311e51.jpg'></image>
+            <text>Billborad</text>
+        </navigator>
+    </view>
+</view>
+<!-- 歌手 -->
+<view class='list'>
+    <view class='list-t'>
+        <text>歌手</text>
+        <navigator url='../player/player' open-type='navigate'>更多</navigator>
+    </view>
+    <view class='list-b'>
+        <navigator url='../playerSong/playerSong?tinguid=7994' open-type='navigate'>
+            <image src='http://qukufile2.qianqian.com/data2/pic/98c6dc2454b0b891951652bb29c16cf2/266322553/266322553.jpg@s_1,w_150,h_150'></image>
+            <text>周杰伦</text>
+        </navigator>
+        <navigator url='../playerSong/playerSong?tinguid=1052' open-type='navigate'>
+            <image src='http://qukufile2.qianqian.com/data2/pic/3eb799e20df19482938401569dee38ab/1329193/1329193.jpg@s_1,w_150,h_150'></image>
+            <text>林俊杰</text>
+        </navigator>
+        <navigator url='../playerSong/playerSong?tinguid=1067' open-type='navigate'>
+            <image src='http://qukufile2.qianqian.com/data2/pic/51677db1f7b51f1f1bacd1a2498665ff/190892/190892.jpg@s_1,w_150,h_150'></image>
+            <text>刘若英</text>
+        </navigator>
+    </view>
+</view>
+<!-- 个性电台 -->
+<view class='list'>
+    <view class='list-t'>
+        <text>个性电台</text>
+        <navigator url='../radiostation/radiostation' open-type='navigate'>更多</navigator>
+    </view>
+    <view class='list-b'>
+        <navigator url='../stationsong/stationsong?chname=public_tuijian_ktv' open-type='navigate'>
+            <image src='http://hiphotos.qianqian.com/ting/pic/item/728da9773912b31b106b9e4e8518367adab4e156.jpg'></image>
+            <text>KTV金曲</text>
+        </navigator>
+        <navigator url='../stationsong/stationsong?chname=public_fengge_qingyinyue' open-type='navigate'>
+            <image src='http://hiphotos.qianqian.com/ting/pic/item/8b82b9014a90f603e8b3ce203a12b31bb051ed52.jpg'></image>
+            <text>轻音乐</text>
+        </navigator>
+        <navigator url='../stationsong/stationsong?chname=public_fengge_xiaoqingxin' open-type='navigate'>
+            <image src='http://hiphotos.qianqian.com/ting/pic/item/f703738da97739122dd1d706fb198618377ae2e6.jpg'></image>
+            <text>小清新</text>
+        </navigator>
+    </view>
+</view>

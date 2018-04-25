@@ -1,0 +1,82 @@
+/* 轮播图 */
+.swiper{
+  width: 100%;
+  height: 346rpx;
+  overflow: hidden;
+}
+.swiper-image{
+  width: 100%;
+  height: 346rpx;
+}
+/* 点击列表 */
+.navbox{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-around;
+  border-bottom: 2rpx solid #ccc;
+}
+.nav{
+  width: 150rpx;
+  height:200rpx;
+  margin:22rpx 0;  
+  text-align: center;
+}
+.nav1{
+  background: #fff;
+}
+.nav image{
+  width: 70rpx;
+  height: 70rpx;
+  padding: 24rpx;
+  border: 4rpx solid #DE2429;
+  border-radius: 50%;
+  display: block;
+}
+.nav text{
+  font-size: 28rpx;
+  color: #666;
+}
+/* 推荐歌曲 */
+.list{
+  width: 100%;
+  height: 300rpx;
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.list-t{
+  width: 100%;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+.list-t text{
+  font-weight: bold;
+  float: left;
+  padding-left: 30rpx;
+}
+.list-t navigator{
+  float: right;
+  padding-right: 30rpx;
+  font-size:20rpx;
+}
+.list-b{
+  width: 100%;
+  height: 246rpx;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.list-b navigator{
+  width: 200rpx;
+  height: 240rpx;
+}
+.list-b image{
+  width: 100%;
+  height: 200rpx;
+}
+.list-b text{
+  line-height: 40rpx;
+}

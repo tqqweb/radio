@@ -1,0 +1,19 @@
+<view class='bacbox'>
+    <view class='search'>
+      <form>
+        <input type='text' class='txt' placeholder="请输入搜索的内容" placeholder-style='color:#F8F8F8' bindinput='searchQuery' value='{{val}}'></input>
+        <button form-type='submit' class='btn'>搜</button>
+      </form>
+    </view>
+
+    <view class='seacont'>
+      <scroll-view style='height:600rpx;' scroll-y>
+        <view class='inner' wx:for='{{songlist}}'>
+            <navigator url='../playing/playing?songid={{item.song_id}}'>
+                <text class='ti' wx:if="{{val!=''}}">{{item.title}}</text>
+                <text  class='au' wx:if="{{val!=''}}">{{item.author}}</text>
+            </navigator>
+        </view>
+      </scroll-view>
+    </view>
+</view>

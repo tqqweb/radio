@@ -1,0 +1,11 @@
+<view class='back'></view>
+<text class='head'>歌手歌曲列表</text>
+<view class='gsongs' wx:for="{{songlist}}">
+    <navigator url='../playing/playing?songid={{item.song_id}}'>
+         <text class='ges'>{{item.title}}</text>
+         <text class='zj'>{{item.album_title}}</text> 
+         <text class='gs'>公司：{{item.si_proxycompany}}</text>
+         <text class='gt'>></text>
+    </navigator>
+</view>
+

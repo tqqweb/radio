@@ -1,0 +1,14 @@
+<view class='dtgequ'>
+   <text>{{rel.channel}}</text> 
+</view>
+<view class='conbox' wx:for="{{songlist}}" wx:if="{{item.songid!=null}}">
+      <navigator url='../playing/playing?songid={{item.songid}}'>
+        <image src='{{item.thumb}}'></image>
+        <view class='context'>
+            <text class='t1'>{{item.title}}</text>
+            <text class='t2'>演唱者：{{item.artist}}</text>
+        </view>
+      </navigator>
+</view>
+
+

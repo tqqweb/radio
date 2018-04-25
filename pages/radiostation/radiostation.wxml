@@ -1,0 +1,10 @@
+<!--pages/radiostation/radiostation.wxml-->
+<view class='dtbox'>
+    <text>{{rel.title}}</text>
+    <view class='conbox' wx:for="{{rel.channellist}}">
+      <navigator class='tui' url='../stationsong/stationsong?chname={{item.ch_name}}'>
+            <image src="{{item.thumb}}" class="tuijian-image"/>  
+            <text>{{item.name}}</text>
+      </navigator>
+    </view>
+</view>

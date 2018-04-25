@@ -1,0 +1,9 @@
+<view class='playerbox' wx:for="{{artist}}">
+  <navigator url="../playerSong/playerSong?tinguid={{item.ting_uid}}">
+    <image src='{{item.avatar_middle}}'></image>
+    <text class='name1'>{{item.name}}</text>
+    <text class='coun'>{{item.country}}</text>
+  </navigator>
+</view>
+
+

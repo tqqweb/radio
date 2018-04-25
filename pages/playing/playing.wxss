@@ -1,0 +1,170 @@
+.play1{
+  width:100%;
+  height:100%;
+  background: red;
+  position: fixed;
+  overflow: hidden;
+  text-align: center;
+}
+.playinner{
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.7);
+}
+
+.audios{
+  width: 200rpx;
+  height: 100rpx;
+  /* background: green; */
+  /* color:#fff; */
+  position: absolute;
+  bottom:25rpx;
+  left:25rpx;
+  display: none;
+}
+.gc{
+  text-align: center;
+  font-size: 26px;
+  color:#fff;
+  line-height:50px;
+  text-shadow: 0 0 2px #000;
+  /* background: rgba(255,255,255,0.6); */
+  display: block;
+  width:100%;
+  height:50px;
+  position: absolute;
+  bottom:210rpx;
+  left:0;
+} 
+.gc1{
+  text-align: center;
+  font-size: 16px;
+  color:#fff;
+  line-height:30px;
+  text-shadow: 0 0 3px #000;
+  /* background: rgba(255,255,255,0.6); */
+  display: block;
+  width:100%;
+  height:30px;
+  position: absolute;
+  bottom:170rpx;
+  left:0;
+} 
+.playinner button{
+  width:100rpx;
+  height:100rpx;
+  background: pink;
+  float:left;
+}
+.positionbox{
+  width:100%;
+  height:200rpx;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+
+.play{
+  width:80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: absolute;
+  left:50%;
+  bottom:24rpx;
+   margin-left:-40rpx; 
+}
+.play image{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50%;
+}
+
+.pre{
+  width: 80rpx;
+  height: 80rpx;
+  background: green;
+  border-radius: 50%;
+  position: absolute;
+  left:25%;
+  bottom:24rpx;
+  margin-left:-40rpx; 
+  line-height: 80rpx;
+  text-align: center;
+  color:#fff;
+}
+.next{
+  width: 80rpx;
+  height: 80rpx;
+  background: green;
+  border-radius: 50%;
+  position: absolute;
+  left:75%;
+  bottom:24rpx;
+  margin-left:-40rpx; 
+  line-height: 80rpx;
+  text-align: center;
+  color:#fff;
+}
+
+
+
+.return1{
+  width:70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  position: absolute;
+  right:56rpx;
+  bottom:36rpx;
+}
+.return1 image{
+  width:70rpx;
+  height:70rpx;
+  border-radius: 50%;
+}
+
+.pro{
+  width:90%;
+  margin:0 auto;
+}
+.pro text{
+  float:left;
+  font-size: 12px;
+  color:#fff;
+  line-height:78rpx;
+}
+.pro slider{
+  width:68%;
+  height: 10rpx;
+  line-height: 40rpx;
+  float:left;
+  padding: 0 10rpx;
+}
+
+.gecibox .getgeci{
+  position: absolute;
+  bottom:35rpx;
+  left:22rpx;
+  width: 160rpx;
+  height: 50rpx;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  text-align: center;
+  background: rgba(0,0,0,0.2);
+  color: #fff;
+  border: 1rpx solid #fff;
+  padding: 0;
+}
+.geci1{
+  width: 100%;
+  height:900rpx;
+  position: absolute;
+  top:0rpx;
+  left:0;
+}
+.geci1 text{
+  text-align: center;
+  line-height: 40rpx;
+  font-size:32rpx;
+  color: #fff;
+}

@@ -1,0 +1,16 @@
+<!--pages/musiclist/musiclist.wxml-->
+<view class='musicbox'>
+
+    <view class='music_t'>
+        <text>{{bangdan}}</text>
+    </view>
+
+    <view class='musci_b' wx:for='{{songlist}}'>
+      <navigator url='../playing/playing?songid={{item.song_id}}' open-type='navigate'>
+          <image src='{{item.pic_big}}'></image>
+          <text class='txt1'>{{item.title}}</text>
+          <text class='txt2'>演唱：{{item.author}}</text>
+      </navigator>
+    </view>
+
+</view>

@@ -1,0 +1,20 @@
+Page({
+    data:{
+      indicatorDots:true,
+      autoplay:true,
+      interval:5000,
+      duration:1000,
+      imgUrls:[
+        "../../img/banner5.jpg",
+        "../../img/banner2.jpg",
+        "../../img/banner3.jpg",
+        "../../img/banner4.jpg",
+        "../../img/banner1.jpg",
+        "../../img/banner6.jpg",
+        "../../img/banner7.jpg",
+        "../../img/banner8.jpg",
+        "../../img/banner9.jpg"
+      ]
+    }
+  
+})

@@ -1,0 +1,58 @@
+.back{
+  width:100%;
+  height:100%;
+  background:#55BBBD;
+  position: fixed;
+  z-index: -1;
+}
+.head{
+  width:300rpx;
+  height:80rpx;
+  margin-left: 40rpx;
+  font-size:40rpx;
+  text-shadow: 0 0 3px #000;
+  line-height: 80rpx;
+  color:#fff;
+}
+.gsongs{
+  width:100%;
+  height:40px;
+  border-bottom:1px solid #ccc;
+  font-size: 12px;
+  line-height: 20px;
+  padding:10rpx 0 10rpx 40rpx;
+  color:#fff;
+  position: relative;
+}
+.ges{
+  font-size: 14px;
+  position: absolute;
+  left:40rpx;
+  width:40%;
+  overflow: hidden;
+  white-space: nowrap;
+  color:#C14448;
+  font-weight: bold;
+}
+.zj{
+   position: absolute;
+   left:325rpx;
+   width:40%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.gs{
+  width:80%;
+  overflow: hidden;
+  position: absolute;
+  top:25px;
+  left:40rpx;
+  white-space: nowrap;
+}
+.gt{
+  position: absolute;
+  top:15px;
+  right:80rpx;
+  font-size: 16px;
+  font-weight: bold;
+}

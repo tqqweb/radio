@@ -1,0 +1,11 @@
+<!--pages/songlist/songlist.wxml-->
+<view class='songlist'>
+    <view class='songitem' wx:for="{{board}}">
+        <navigator url='../musiclist/musiclist?type={{item.billboard_type}}' open-type='navigate'>
+            <image src='{{item.pic_s210}}'></image>
+            <text class='txt1'>{{item.name}}</text>
+            <text class='txt2'>{{item.comment}}</text>
+        </navigator>
+    </view>
+
+</view>

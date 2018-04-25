@@ -1,0 +1,43 @@
+<!-- 带图片的大盒子 -->
+<view class='play1' style='background:url({{song.songPicRadio}}) no-repeat center;background-size:cover;'>
+<!-- 图片蒙版 -->
+  <view class='playinner'>
+  <!-- 自己设置的样式 -->
+    <view class='positionbox'>
+        <!-- 播放时间、进度条 -->
+        <view class='pro'> 
+            <!-- 2:34  -->
+            <text>{{song.time/60|Int}}:{{song.time%60}}</text>   
+            <slider  min="0" max="{{song.time}}" block-size='12' value="{{val}}" bindchanging="sliderChange"/> 
+            <text>{{dateTime/60|Int}}:{{a}}</text>
+        </view>
+        <!-- 播放、暂停按钮 -->
+        <view class='play' bindtap='audioPlay'>
+            <image src='{{playImg}}'></image>
+        </view>
+        <!-- 回到开头 -->
+        <view class='return1' bindtap="returnStart">
+            <image src='../../img/play3.png'></image>
+        </view>
+        <!-- 歌名，演唱者 -->
+        <view hidden='{{hid}}'>
+            <text class='gc'>{{song.songName}}</text> 
+            <text class='gc1'>演唱者：{{song.artistName}}</text>  
+        </view>
+   </view>
+
+   <view class='gecibox'>
+    <button ontap='tap1' class='getgeci'>获取歌词</button>
+    <view class='geci1'>
+        <scroll-view scroll-y style='height:900rpx;'>
+            <text wx:for="{{geci}}">{{item}}</text>
+        </scroll-view>
+    </view> 
+  </view>
+  
+  
+    <!-- 音乐  -->
+    <audio poster='{{song.songPicRadio}}' name='{{song.songName}}' author='{{song.artistName}}' src='{{song.songLink}}'  id="myAudio" class='audios' loop bindtimeupdate='timeUpDate'></audio>  
+
+  </view>
+</view> 

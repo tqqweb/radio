@@ -1,0 +1,47 @@
+/* pages/stationsong/stationsong.wxss */
+/* pages/dtsongs/dtsongs.wxss */
+.dtgequ{
+  width:90%;
+  height:64rpx;
+  line-height: 64rpx;
+  font-size: 36rpx;
+  font-weight:bold;
+  color:#C14448;
+  margin: 10rpx auto;
+}
+.dtgequ text{
+  padding:5%;
+}
+.conbox{
+  width:90%;
+  height:200rpx;
+  border-bottom:1px solid #E9E9E9;
+  margin:0 auto;
+}
+.conbox image{
+  width:180rpx;
+  height:180rpx;
+  margin:10rpx;
+  float: left;
+}
+.context{
+  width:400rpx;
+  height:160rpx;
+  margin:20rpx 0 20rpx 40rpx;
+  float:left;
+  overflow: hidden;
+}
+.context .t1{
+  width:100%;
+  line-height: 80rpx;
+  font-size:28rpx;
+  font-weight: bold;
+  display: block; 
+  overflow: hidden;
+}
+.context .t2{
+  width:100%;
+  line-height: 80rpx;
+  font-size:24rpx; 
+  display: block;
+}

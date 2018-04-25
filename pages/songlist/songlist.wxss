@@ -1,0 +1,31 @@
+/* pages/songlist/songlist.wxss */
+.songlist{
+  width: 690rpx;
+  height: auto;
+  margin: 0 auto;
+}
+.songitem{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 20rpx auto;
+  margin: 20rpx auto;
+  text-align: center;
+}
+.songitem image{
+  width: 444rpx;
+  height: 260rpx;
+}
+.songitem .txt1{
+  font-weight: bold;
+  color:#55BBBD;
+  font-size:30rpx;
+  line-height: 50rpx;
+  display: block;
+}
+.songitem .txt2{
+  color: #666;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  display: block;
+}
